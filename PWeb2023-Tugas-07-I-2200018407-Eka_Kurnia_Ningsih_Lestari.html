@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h5 class="link"><a href="file:///D:/xampp/htdocs/tugasdesainweb/medos.html">Media Sosial</a></h5>
+		<b><h1 class="bio">Biodata</h1><br></b>
+		<img class="foto" src="pasfoto.jpg" >
+	</div>
+
+	<div id="content">
+		<form action="#" method="POST" onSubmit="fungsi()">
+
+			<label>Nama: </label>
+			<input type="text" name="nama" id="nama"><br><br>
+			<label>Status: </label>
+			<input type="text" name="status" id="status"><br><br>
+			<label>NIM: </label>
+			<input type="text" name="nim" id="nim"><br><br>
+			<label>TTL: </label>
+			<input type="text" name="ttl" id="ttl"><br><br>
+			<input type="submit" value="Daftar" class="tombol">
+
+		</form>
+	</div>
+
+	<script type="text/javascript">
+		function input(){
+			var nama = document.getElementById("nama").value;
+			var status = document.getElementById("status").value;
+			var nim = document.getElementById("nim").value;
+			var ttl = document.getElementById("ttl").value;
+
+			if (nama !="" && email !="" && alamat !=""){
+				return true;
+			}else{
+				alert('Anda harus mengisi data dengan lengkap')
+			}
+		}
+</body>
+</html>
