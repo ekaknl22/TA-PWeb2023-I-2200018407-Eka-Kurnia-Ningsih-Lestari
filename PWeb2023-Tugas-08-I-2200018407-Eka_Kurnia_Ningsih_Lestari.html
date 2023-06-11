@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<b><h1 class="bio">Biodata</h1><br></b>
+		<img class="foto" src="pasfoto.jpg">
+	</div>
+
+	<div id="content">
+		<form action="#" method="GET" onsubmit="validasiform()">
+			<label>Nama: </label><br>
+			<input type="text" name="nama" id="nama"><br><br>
+			<label>Status: </label><br>
+			<input type="text" name="status" id="status"><br><br>
+			<label>NIM: </label><br>
+			<input type="text" name="nim" id="nim"><br><br>
+			<label>TTL: </label><br>
+			<input type="text" name="ttl" id="ttl"><br><br>
+			<button type="submit" class="tombol" onclick="validasiform()">Daftar</button>
+		</form>
+	</div>
+
+	<script type="text/javascript" language="javascript">
+		function validasiform(){
+			var nama = document.getElementById("nama").value;
+			var status = document.getElementById("status").value;
+			var nim = document.getElementById("nim").value;
+			var ttl = document.getElementById("ttl").value;
+
+
+			if(nama.value === '' || nama.value == null){
+				alert("Nama harus diisi");
+			}else if(status.value === '' || status.value == null){
+				alert("Status harus diisi");
+			}else if(nim.value === '' || nim.value == null){
+				alert("NIM harus diisi");
+			}else if(ttl.value === '' || nim.value == null){
+				alert("Tempat Tanggal Lahir harus diisi");
+			}else{
+				alert("Form harus diisi!");
+			}
+		}	
+		
+	</script>	
+</body>
+</html>
