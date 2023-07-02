@@ -1,23 +1,40 @@
-#header{
-	background-color: palevioletred;
+body{
+	background: #3498db;
+	font-family: sans-serif;
 }
-#content{
-	background-color: mediumvioletred;
+
+h2{
+	color: #fff;
 }
-h1.bio{
-	text-align: center;
-	font-family: cursive;
+
+.login{
+	padding: 1em;
+	margin: 2em auto;
+	width: 17em;
+	background: #fff;
+	border-radius: 3px;
 }
-h5.link{
-	text-align: left;
-	font-family: cursive;
+
+label{
+	font-size: 10pt;
+	color: #555;
 }
-img.foto{
-	max-width: 100%;
-	display: block;
-	height: auto;
-	width: 12%;
-	height: 12%;
-	margin-left: auto;
-	margin-right: auto;
+
+input[type="text"],
+input[type="email"],
+
+textarea{
+	padding: 8px;
+	width: 95%;
+	background: #efefef;
+	border: 0;
+	font-size: 10pt;
+	margin: 6px 0px;
+}
+
+.tombol{
+	background: #3498db;
+	color: #fff;
+	border: 0;
+	padding: 5px 8px;
 }
