@@ -1,23 +1,74 @@
 #header{
-	background-color: palevioletred;
-}
-#content{
-	background-color: mediumvioletred;
-}
-h1.bio{
 	text-align: center;
-	font-family: cursive;
+	font-family: verdana;
+	padding: 1%;
 }
-h5.link{
-	text-align: left;
-	font-family: cursive;
+
+img{
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: #8A2BE2;
 }
-img.foto{
-	max-width: 100%;
-	display: block;
-	height: auto;
-	width: 12%;
-	height: 12%;
-	margin-left: auto;
-	margin-right: auto;
+
+a{
+	color: black;
+	font-family: verdana;
+	background-color: #8A2BE2;
+	text-align: center;
+	background-color: white;
+	border-radius: 2px;
+	font-weight: bold;
+	padding: 5px;
 }
+
+#main{
+	background-color: #8A2BE2;
+}
+
+.content{
+	padding: 1em;
+	margin: 2em auto;
+	width: 17em;
+	background: #fff;
+	border-radius: 3px;
+}
+
+label{
+	color: black;
+	font-family: verdana;
+	font-size: 20px;
+}
+
+#body{
+	border: 2px solid;
+}
+
+.footer, p{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: #8A2BE2;
+	clear: both;
+}
+
+.sidebar {
+  height: 90vx;
+  width: 200px;
+  list-style: none;
+  background-color: #8A2BE2;
+  float: left;
+}
+.sidebar li a {
+  display: block;
+  padding: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid silver;
+  transition: background-color 0.5s;
+  border: 1px solid black;
+}
+.sidebar li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
